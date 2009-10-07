@@ -1,0 +1,44 @@
+.ui-popup {
+	position: absolute;
+	z-index: 1000;
+	width: 220px;
+}
+
+.ui-popup-default, .ui-popup-below {
+	background: transparent url('images/ui-tutorial-below.gif') no-repeat top center;
+	padding-top: 4px;
+}
+
+.ui-popup-default, .ui-popup-above {
+	background: transparent url('images/ui-tutorial-above.gif') no-repeat bottom center;
+	padding-bottom: 4px;
+}
+
+.ui-popup-left {
+	background: transparent url('images/ui-tutorial-right.gif') no-repeat right center;
+	padding-right: 4px;
+}
+
+.ui-popup-right {
+	background: transparent url('images/ui-tutorial-left.gif') no-repeat left center;
+	padding-left: 4px;
+}
+
+.ui-popup > .content {
+	background: #282828;
+	color: #fff;
+	display: block;
+	font-weight: normal;
+	padding: 3px 8px;
+	font-size: 10px;
+}
+
+.ui-popup > .content > .ui-next {
+	color: #fff;
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	margin-top: 2px;
+	padding-top: 2px;
+	border-top: 1px dashed #fff;
+}
