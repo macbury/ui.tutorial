@@ -1,0 +1,8 @@
+jQuery UI plugin for displaying bubble hint mini tutorial.
+
+Example:
+
+	$('body').tutorial({
+		bubbles: [ { element: '#wrapper', body: 'This is a wrapper!', direction: 'above' }, { element: '#sidebar', body: 'Here is sidebar.', direction: 'left' },{ element: '.login', body: 'This is login box.', direction: 'right' }
+		 ]
+	})
